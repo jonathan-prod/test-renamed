@@ -17,7 +17,15 @@ resource "aws_s3_bucket" "main" {
 
   acl    = "private"
   policy = data.aws_iam_policy_document.bucket_policy.json
-
+  
+  server_side_encryption_configuration {
+    rule {
+      apply_server_side_encryption_by_default {
+        sse_algorithm     = "AES256"
+      }
+    }
+  }
+  
   website {
     index_document = var.index_document
     error_document = var.error_document
