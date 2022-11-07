@@ -38,6 +38,6 @@ resource "aws_cloudfront_distribution" "negative1" {
   }
 
   viewer_certificate {
-    cloudfront_default_certificate = true
+    cloudfront_default_certificate = false
   }
 }
