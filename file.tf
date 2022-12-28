@@ -29,3 +29,35 @@ resource "aws_s3_bucket_public_access_block" "positive2354rewrwerewr354344rerere
   block_public_policy = false
   ignore_public_acls  = false
 }
+
+resource "aws_s3_bucket_public_access_block" "positive23543543445434535rwerwerwe43345534345453534354" {
+  bucket = aws_s3_bucket.example.id
+
+  block_public_acls   = false
+  block_public_policy = false
+  ignore_public_acls  = false
+}
+
+resource "aws_s3_bucket_public_access_block" "positive2354354344rerererrewrwerwerer543453543345534345453534354" {
+  bucket = aws_s3_bucket.example.id
+
+  block_public_acls   = false
+  block_public_policy = false
+  ignore_public_acls  = false
+}
+
+resource "aws_s3_bucket_public_access_block" "positive235435werwerwer344rewrwerwerwe543453543345534345453534354" {
+  bucket = aws_s3_bucket.example.id
+
+  block_public_acls   = false
+  block_public_policy = false
+  ignore_public_acls  = false
+}
+
+resource "aws_s3_bucket_public_access_block" "positive2354rewrwerewr354344rerererer54345354rewrwerwerew3345534345453534354" {
+  bucket = aws_s3_bucket.example.id
+
+  block_public_acls   = false
+  block_public_policy = false
+  ignore_public_acls  = false
+}
