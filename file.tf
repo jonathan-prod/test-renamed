@@ -21,3 +21,5 @@ resource "aws_s3_bucket_public_access_block" "positive535352354354344rerererer54
   block_public_policy = false
   ignore_public_acls  = false
 }
+
+
